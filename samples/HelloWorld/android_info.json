@@ -1,0 +1,7 @@
+{
+	"name": "HelloWorld",
+	"package": "com.hello.world2",
+	"android_target_sdk_version": 18,
+	"android_min_sdk_version": 8,
+	"main": "basic.js"
+}
