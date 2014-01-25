@@ -33,14 +33,14 @@ Other javascript files than your main file can included this way if they are als
 
 ###Printing to the Android Log
 ```
-android.log('I'm a debug message');
+android.log('I am a debug message');
 ```
 
 ###Making Toast Messages
 Toast messages are shown to the user for either a short or long amount of time.
 ```
-android.toast('I\'m a short message', android.toast.short);
-android.toast('I\'m a long message', android.toast.long);
+android.toast('I am a short message', android.toast.short);
+android.toast('I am a long message', android.toast.long);
 ```
 
 ###App Structure
@@ -82,7 +82,7 @@ Views can be registered to call a given function when they are clicked using the
 
 ```
 button.onClick(function(e) {
-  android.toast('I\'ve been clicked!', android.toast.short);
+  android.toast('I have been clicked!', android.toast.short);
 });
 ```
 
