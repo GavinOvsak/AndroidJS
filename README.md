@@ -16,7 +16,7 @@ ProjectName/
  - layout/    For your xml layout files
  - android_info.json    An object to describe your app
 ```
-To compile the app into an apk file, run the AndroidJS.sh file from within your ProjectName folder. This will make a folder names output/ which will contain your apk file. You can email this file to any phone or upload it to the Google Play Store. 
+To compile the app into an apk file, run the AndroidJS.sh file from within your ProjectName folder. This will make a subfolder named output/ which will contain your apk file. You can email this file to any phone or upload it to the Google Play Store. 
 
 More documentation is coming, for now have a look at the HelloWorld example in the samples folder for an example of the AndroidJS API and android_info.json formatting.
 
