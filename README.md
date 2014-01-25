@@ -23,7 +23,7 @@ More documentation is coming, for now have a look at the HelloWorld example in t
 Documentation
 =============
 
-###Require modules:
+###Require modules
 The AndroidJS API revolves around the "android" object which can be imported at the beginning of your base file using:
 ```
 var android = require('android');
@@ -31,7 +31,7 @@ var android = require('android');
 
 Other javascript files than your main file can included this way if they are also in your js/ folder. The base javascript file is specified in android_info.json under the "main" field.
 
-###Printing to the Android Log:
+###Printing to the Android Log
 ```
 android.log('I'm a debug message');
 ```
